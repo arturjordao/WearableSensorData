@@ -209,7 +209,7 @@ if __name__ == '__main__':
         callbacks = [cm.custom_stopping(value=cm.loss, verbose=2)]
 
         model.fit(X_train, y[train_idx], batch_size=len(X_train),
-                  epochs=4*cm.n_ep,#The drawback of the method, it require more iterations to converge (to the loss achieve cm.loss)
+                  epochs=4*cm.n_ep,#The drawback of the method is that it requires more iterations to converge (loss <= cm.loss)
                    verbose=0, callbacks=callbacks, validation_data=(X_train, y[train_idx]))
 
         y_pred = model.predict(X_test)
