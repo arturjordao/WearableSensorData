@@ -157,7 +157,7 @@ if __name__ == '__main__':
     if (len(sys.argv) > 1):
         data_input_file = sys.argv[1]
     else:
-        data_input_file = '//storage.vpr.dcc.ufmg.br/home/projects/sensor2.0/SavedFeatures/LOSO/UTD-MHAD2_1s.npz'
+        data_input_file = 'data/LOSO/MHEALTH.npz'
 
     dataset_name = data_input_file.split('/')
     dataset_name = dataset_name[-1].replace('.npz', '')
