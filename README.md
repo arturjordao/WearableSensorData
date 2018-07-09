@@ -1,6 +1,35 @@
 # WearableSensorData
+This repository provides the codes and data used in our paper "Human Activity Recognition Based on Wearable Sensor Data: A Standardization of the State-of-the-Art", where we implement and evaluate several state-of-the-art approaches, ranging from handcrafted-based methods to convolutional neural networks. Also, we standardize a large number of datasets, which vary in terms of sampling rate, number of sensors, activities, and subjects.
 
-Mean accuracy achieved by the methods using the Leave-One-Subject-Out (LOSO) as validation protocol. 
+## Requirements
+
+- [Scikit-learn](http://scikit-learn.org/stable/)
+- [Keras](https://github.com/fchollet/keras) (Recommended versions 2.0.4 or 2.1.2)
+- [Tensorflow](https://www.tensorflow.org/) (Recommended version 1.3.0)
+- [Python 3](https://www.python.org/)
+
+## Quick Start
+1. Clone this repository
+2. Run
+    ```bash
+    python <Catal2015|...|ChenXue2015>.py data/<SNOW|FNOW|LOTO|LOSO>/<MHEALTH|USCHAD|UTD-MHAD1_1s|UTD-MHAD2_1s|WHARF|WISDM>.npz
+    ```
+	For example
+	```bash
+    python Catal2015.py data/LOSO/MHEALTH.npz
+    ```
+	
+## Data Format
+The raw signal provided by the original dataset was segmented by using a temporal sliding window of 5 seconds. 
+Its format is (number of samples, 1, temporal window size, number of sensors)
+	
+## Contributing
+Contributions to this repository are welcome. Examples of things you can contribute:
+ * Implementation of other methods. See template_hancrafted.py and template_convNets.py
+ * Accuracy Improvements.
+ * Reporting bugs.
+
+The table below shows the mean accuracy achieved by the methods using the Leave-One-Subject-Out (LOSO) as validation protocol.
 
 | Method | MHEALTH | PAMAP2 | USCHAD | UTD-MHAD1 | UTD-MHAD2 | WHARF | WISDM | Mean Accuracy |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
