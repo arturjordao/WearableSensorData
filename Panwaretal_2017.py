@@ -38,7 +38,7 @@ if __name__ == '__main__':
     if (len(sys.argv) > 1):
         data_input_file = sys.argv[1]
     else:
-        data_input_file = 'C:/Users/ARTUR/Desktop/Projeto/sensors2.0/SavedFeatures/WHARF_5s.npz'
+        data_input_file = 'data/LOSO/MHEALTH.npz'
 
     tmp = np.load(data_input_file)
     X = tmp['X']
