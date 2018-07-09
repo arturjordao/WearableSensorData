@@ -104,7 +104,7 @@ if __name__ == '__main__':
     if (len(sys.argv) > 1):
         data_input_file = sys.argv[1]
     else:
-        data_input_file = 'E:/datasets/sensors/TemporalWindow/CV_0.5/MHEALTH.npz'
+        data_input_file = 'data/LOSO/MHEALTH.npz'
 
     tmp = np.load(data_input_file)
     X = tmp['X']
