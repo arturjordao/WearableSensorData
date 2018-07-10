@@ -51,7 +51,7 @@ Jessica Sena and
 William Robson Schwartz},
 title     = {Human Activity Recognition Based on Wearable Sensor Data: A Standardization of the State-of-the-Art},
 journal   = {In CoRR},
-year      = {2017},
+year      = {2018},
 url       = {https://arxiv.org/abs/1806.05226},
 archivePrefix = {arXiv},
 eprint    = {1806.05226},
