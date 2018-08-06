@@ -4,7 +4,7 @@ This repository provides the codes and data used in our paper "Human Activity Re
 ## Requirements
 
 - [Scikit-learn](http://scikit-learn.org/stable/)
-- [Keras](https://github.com/fchollet/keras) (Recommended versions 2.0.4 or 2.1.2)
+- [Keras](https://github.com/fchollet/keras) (Recommended version 2.1.2)
 - [Tensorflow](https://www.tensorflow.org/) (Recommended version 1.3.0)
 - [Python 3](https://www.python.org/)
 
