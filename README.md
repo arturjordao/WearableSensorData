@@ -50,10 +50,8 @@ Antonio Carlos Nazare,
 Jessica Sena and
 William Robson Schwartz},
 title     = {Human Activity Recognition Based on Wearable Sensor Data: A Standardization of the State-of-the-Art},
-journal   = {In CoRR},
+journal   = {arXiv},
 year      = {2018},
-url       = {https://arxiv.org/abs/1806.05226},
-archivePrefix = {arXiv},
 eprint    = {1806.05226},
 }
 ```
